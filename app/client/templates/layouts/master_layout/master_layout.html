@@ -1,0 +1,8 @@
+<template name="MasterLayout">
+  <ul id="slider-nav">
+    <li class="{{isActiveClass 'slideOne'}}"><a href="{{pathFor 'slideOne'}}">Slide One</a></li>
+    <li class="{{isActiveClass 'slideTwo'}}"><a href="{{pathFor 'slideTwo'}}">Slide Two</a></li>
+    <li class="{{isActiveClass 'slideThree'}}"><a href="{{pathFor 'slideThree'}}">Slide Three</a></li>
+  </ul>
+  {{> yield}}
+</template>
