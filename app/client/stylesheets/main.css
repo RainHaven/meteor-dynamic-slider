@@ -13,7 +13,7 @@
   text-align: center;
 }
 #slider-nav li.active {
-  background: blue;
+  background: #35485F;
 }
 #slider-nav li a {
   display: block;
